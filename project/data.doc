@@ -1,0 +1,12 @@
+Cookies(not used in django)-------------------
+    1. Data stores in client side.
+    2. Data stores in client browser only.
+    3. Data stores in text formate. 
+
+    method_used:
+    1. set_cookie()
+    2. request.COOKIES['key']/request.COOKIES.get('name','Guest')
+    3. delete_cokkies('key')
+
+    Syntext:
+    set_cookie(cookie_name, value, max_age = None, expires = None, path = '/', domain = None, secure = False, httponly = False)
